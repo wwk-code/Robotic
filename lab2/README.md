@@ -64,7 +64,8 @@ g++ test.cpp -o test -I/usr/include/pcl-1.10 -lpcl_io -lpcl_common -I/usr/includ
 
 ``` C++
 1. 进入 Lab2_JoinMap 目录下，先修改CMakeLists.txt文件中的C++标准，从11改到14
-2. 按顺序执行以下步骤:  cmake .   ->  make  ->   ./joinMap
+2. 标准步骤:  cmake .   ->  make  ->   ./joinMap   但我已经写好了shell脚本，如下:
+   如果想要先删除之前的构建依赖，重新构建并运行程序，用 bash build_run.sh ,如果想不构建而直接运行程序，直接用 bash run.sh 即可
 3. 上述步骤执行完后，终端会输出如下结果，意味着实现成功
    /**
     正在将图像转换为点云...
