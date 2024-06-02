@@ -3,6 +3,8 @@
 ### 1. 从0搭建 Robotic Lab1 开发环境 - 操作流程
 
 ``` C++
+首先注意:  Xftp、Vmware、ios镜像文件需要提前配置好
+
 1. 使用Vmware搭建Ubuntu20.04系统,VMware虚拟网络编辑器设置中使用NAT静态IP(非DHCP模式),然后在 /etc/netplan/01-network-manager-all.yaml 中设置如下内容:
 network:
     version: 2
