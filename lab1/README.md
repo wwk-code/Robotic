@@ -31,10 +31,20 @@ network:
 ### 2. 运行项目
 
 ``` C++
-老师发的资料是本目录下的 "Robotics_Lab1_基于颜色特征的目标识别与追踪实验.pdf"，但此lab比较简单，主要注意以下几个事项:
-① lab1的所有相关代码都在 Robotics_Lab1_Code 文件夹下，在已经搭建好lab1的开发环境的背景下，最终运行项目结果给老师看只需要在该目录下执行命令:
-python(或 python3) hist.py 即可。  例:  python3 hist.py
+实验要求和参考资料是本目录下的 "Robotics_Lab1_基于颜色特征的目标识别与追踪实验.pdf"，但此lab比较简单，主要注意以下几个事项:
+① lab1的所有相关代码都在 Robotics_Lab1_Code 文件夹下，在已经搭建好lab1的开发环境的背景下，最终运行项目结果给老师看只需要在该目录下执行命令:  bash run.sh
+  
 ```
+
+
+
+#### 2.1 结果图
+
+运行出下面这两个结果应该就行了，当着老师面运行run.sh脚本，显示出这个结果，他应该就能给lab1画勾了
+
+如果说运行程序时出现了报错说无法打开摄像头，具体的解决方案在 整个git项目根目录下的README.md文档中
+
+![image-20240607161638723](C:\Users\14811\AppData\Roaming\Typora\typora-user-images\image-20240607161638723.png)
 
 
 
